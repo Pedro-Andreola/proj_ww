@@ -2,12 +2,53 @@
     padding: 0;
 }
 
+
+h1{
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    background-color: #8eafaa;
+    min-width:fit-content;
+    border: 2px #748c8c solid;
+}
+
+.dest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.texto{
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 500px;
+}
+
+.texto h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.texto h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.texto p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
 .galeria{
     width: 900px;
     height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
     overflow: hidden;
+    border: 4px #748c8c solid;
 }
 
 .galeria .fotos{
