@@ -1,0 +1,66 @@
+.ctt{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+}
+
+legend{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+
+label{
+    text-align: center;
+}
+
+input, textarea{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+textarea{
+    min-height: 7rem;
+}
+
+.btn {
+    background-color: #748c8c;
+    border: solid 2px #28333a;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 10vw;
+    margin: 0 auto;
+  }
+  
+  .btn:hover {
+    background-color: #9cc6cc;
+    color: #28333a;
+}
+
+@media(max-width: 414px){
+    legend{
+        margin-bottom: 3rem;
+    }
+
+    fieldset{
+        height: 50vh;
+    }
+
+    .btn{
+        width: 20vw;
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+    }
+}
