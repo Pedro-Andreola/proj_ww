@@ -140,3 +140,60 @@ h1{
 
 }
 
+@media(max-width: 414px){
+    .dest{
+        flex-direction: column-reverse;
+    }
+
+    .galeria{
+        width: 406px;
+        height: 271px;
+        margin-left: 0;
+        overflow: hidden;
+        border: 4px #748c8c solid;
+    }
+
+    .galeria .fotos{
+        display: flex;
+        width: 1218px;
+        height: 271;
+    }
+
+    @keyframes slides{
+        0%{
+            left: 0px;
+        }
+        10%{
+            left: -406px;
+        }
+        20%{
+            left: -406px;
+        }
+        30%{
+            left:-406px;
+        }
+        40%{
+            left: -812px;
+        }
+        50%{
+            left: -812px;
+        }
+        60%{
+            left: -812px;
+        }
+        70%{
+            left: -406px;
+        }
+        80%{
+            left: -406px;
+        }
+        90%{
+            left: 0px;
+        }
+    
+        100%{
+            left: 00px;
+        }
+}
+
+}

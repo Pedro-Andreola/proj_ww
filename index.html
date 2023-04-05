@@ -10,7 +10,8 @@
 </head>
 <body>
     <header class="menu">
-       <a href="index.html"><img id="logo" src="./assets/img/logo_wizard.png" alt="logo da marca da empresa"></a>
+        
+       <a href="index.html"><img id="logo" src="./assets/img/logo_wizard.png" alt="logo da marca da empresa">    </a>
         <nav>
             <ul class="menu_itens">
                 <li class=""><a href="index.html">Home</a></li>
@@ -18,6 +19,8 @@
                 <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
                 <li><a href="contato.html">Contato</a></li>
+                <li><a class="mobile_menu" href="carrinho.html">Carrinho</a></li>
+                <li><a class="mobile_menu" href="perfil.html">Perfil</a></li>
             </ul>
         </nav>
         <div class="icons">
@@ -27,13 +30,23 @@
     </header>
     <main>
         <div id="cont1" class="cont">
-            <img id="home1" class="img_cont" src="./assets/img/mao_no_bolso.jpg" alt="relogio_belush">
+            <picture   class="img_cont">
+                <source id="home1" srcset="./assets/img/mao_no_bolso_mobile.jpg" 
+                media="(max-width: 414px)">
+                
+                <img id="home1" src="./assets/img/mao_no_bolso.jpg" alt="logo da marca da empresa">    
+            </picture>
             <p>Acessórios elegantes para complementar desde os seus trajes casuais até os seu trajes mais formais </p>
         </div>
         <br>
         <div id="cont2" class="cont">
             <p>Peças únicas do mundo da relojoaria de luxo, nacionais e importadas com certificado de autenticidade</p>
-            <img id="home2"  class="img_cont" src="./assets/img/homem.jpg" alt="relogio_belush">
+            <picture   class="img_cont">
+                <source id="home2" srcset="./assets/img/homem_mobile.jpg" 
+                media="(max-width: 414px)">
+                
+                <img id="home2" src="./assets/img/homem.jpg" alt="logo da marca da empresa">    
+            </picture>
         </div>
     </main>
     <footer>
